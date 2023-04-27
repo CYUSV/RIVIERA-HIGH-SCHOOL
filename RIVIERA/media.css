@@ -1,0 +1,44 @@
+body {
+  background-color: pink;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: lightgreen;
+  }
+}body {
+  background-color: pink;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: red;
+}
+#sidebar{
+	position: fixed;
+	width: 20%;
+	height: 72.5%;
+	background-color: gray;
+}
+#sidebar li{
+	color: red;
+	font-size: 30px;
+	padding: 30px;
+	border-bottom: 1px solid gray;
+	text-align: center;
+	text-decoration-color: whitesmoke ;
+	text-decoration: none;
+	text-decoration-line: none;
+}
+#sidebar li a{
+	text-decoration-line: none;
+	text-decoration-color: none;
+	color: white;
+}
+
+body p{
+	text-align: center;
+}
